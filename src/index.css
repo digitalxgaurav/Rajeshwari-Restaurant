@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Poppins", system-ui, -apple-system, sans-serif;
+  
+  --color-maroon-50: #fdf5f5;
+  --color-maroon-100: #fbe6e6;
+  --color-maroon-200: #f8ccd0;
+  --color-maroon-600: #9c2727;
+  --color-maroon-700: #7A1E1E;
+  --color-maroon-800: #621818;
+  --color-maroon-900: #491010;
+  
+  --color-gold-100: #fbf5df;
+  --color-gold-300: #ebd473;
+  --color-gold-400: #e3c44c;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #b59223;
+  --color-gold-700: #8c7017;
+  
+  --color-cream-50: #fffcf8;
+  --color-cream-100: #FFF8EE;
+  --color-cream-200: #f7eedf;
+  --color-cream-300: #ebdcc3;
+  
+  --color-charcoal-50: #f9f9f9;
+  --color-charcoal-100: #f1f1f1;
+  --color-charcoal-200: #e2e2e2;
+  --color-charcoal-500: #6b6b6b;
+  --color-charcoal-800: #222222;
+  --color-charcoal-900: #141414;
+  
+  --color-beige-200: #F5E6CC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream-100);
+  color: var(--color-charcoal-800);
+  font-family: var(--font-sans);
+}
+
+.font-heading {
+  font-family: var(--font-serif);
+}
+
+/* Customize scrollbars for a premium look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-maroon-700);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-maroon-800);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Rajeshwari Hotel & Restaurant",
+  "description": "Premium, responsive tourism and hospitality website for Rajeshwari Hotel & Restaurant near Kripalu Dham, Mangarh. Features online room booking, interactive pure vegetarian restaurant menu, locations map, and an automatic multilingual AI chatbot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
